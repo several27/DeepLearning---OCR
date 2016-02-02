@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5262130F1C5CD5A700017523 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262130E1C5CD5A700017523 /* main.swift */; };
+		526213381C5CD61500017523 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213181C5CD61500017523 /* io.swift */; };
+		526213391C5CD61500017523 /* machine_learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262131A1C5CD61500017523 /* machine_learning.swift */; };
+		5262133A1C5CD61500017523 /* m-complex-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262131C1C5CD61500017523 /* m-complex-math.swift */; };
+		5262133B1C5CD61500017523 /* m-helper-functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262131D1C5CD61500017523 /* m-helper-functions.swift */; };
+		5262133C1C5CD61500017523 /* m-image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262131E1C5CD61500017523 /* m-image.swift */; };
+		5262133D1C5CD61500017523 /* m-initing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262131F1C5CD61500017523 /* m-initing.swift */; };
+		5262133E1C5CD61500017523 /* m-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213201C5CD61500017523 /* m-matrix.swift */; };
+		5262133F1C5CD61500017523 /* m-operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213211C5CD61500017523 /* m-operators.swift */; };
+		526213401C5CD61500017523 /* m-simple-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213221C5CD61500017523 /* m-simple-math.swift */; };
+		526213411C5CD61500017523 /* complex-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213241C5CD61500017523 /* complex-math.swift */; };
+		526213421C5CD61500017523 /* helper-functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213251C5CD61500017523 /* helper-functions.swift */; };
+		526213431C5CD61500017523 /* initing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213261C5CD61500017523 /* initing.swift */; };
+		526213441C5CD61500017523 /* ndarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213271C5CD61500017523 /* ndarray.swift */; };
+		526213451C5CD61500017523 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213281C5CD61500017523 /* operators.swift */; };
+		526213461C5CD61500017523 /* simple-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213291C5CD61500017523 /* simple-math.swift */; };
+		526213471C5CD61500017523 /* numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262132A1C5CD61500017523 /* numbers.swift */; };
+		526213481C5CD61500017523 /* conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262132C1C5CD61500017523 /* conversion.swift */; };
+		526213491C5CD61500017523 /* machine_learning.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5262132D1C5CD61500017523 /* machine_learning.mm */; };
+		5262134A1C5CD61500017523 /* math.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262132E1C5CD61500017523 /* math.m */; };
+		5262134B1C5CD61500017523 /* opencv.mm in Sources */ = {isa = PBXBuildFile; fileRef = 526213301C5CD61500017523 /* opencv.mm */; };
+		5262134C1C5CD61500017523 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526213311C5CD61500017523 /* opencv2.framework */; };
+		5262134D1C5CD61500017523 /* operations-and-indexing.m in Sources */ = {isa = PBXBuildFile; fileRef = 526213321C5CD61500017523 /* operations-and-indexing.m */; };
+		5262134E1C5CD61500017523 /* ScalarArithmetic-bleed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213341C5CD61500017523 /* ScalarArithmetic-bleed.swift */; };
+		5262134F1C5CD61500017523 /* speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213361C5CD61500017523 /* speed.swift */; };
+		526213501C5CD61500017523 /* tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526213371C5CD61500017523 /* tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		526213091C5CD5A700017523 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5262130B1C5CD5A700017523 /* DeepLearning - OCR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DeepLearning - OCR"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5262130E1C5CD5A700017523 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		526213171C5CD61500017523 /* imshow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = imshow.py; sourceTree = "<group>"; };
+		526213181C5CD61500017523 /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		5262131A1C5CD61500017523 /* machine_learning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = machine_learning.swift; sourceTree = "<group>"; };
+		5262131C1C5CD61500017523 /* m-complex-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-complex-math.swift"; sourceTree = "<group>"; };
+		5262131D1C5CD61500017523 /* m-helper-functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-helper-functions.swift"; sourceTree = "<group>"; };
+		5262131E1C5CD61500017523 /* m-image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-image.swift"; sourceTree = "<group>"; };
+		5262131F1C5CD61500017523 /* m-initing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-initing.swift"; sourceTree = "<group>"; };
+		526213201C5CD61500017523 /* m-matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-matrix.swift"; sourceTree = "<group>"; };
+		526213211C5CD61500017523 /* m-operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-operators.swift"; sourceTree = "<group>"; };
+		526213221C5CD61500017523 /* m-simple-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-simple-math.swift"; sourceTree = "<group>"; };
+		526213241C5CD61500017523 /* complex-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "complex-math.swift"; sourceTree = "<group>"; };
+		526213251C5CD61500017523 /* helper-functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "helper-functions.swift"; sourceTree = "<group>"; };
+		526213261C5CD61500017523 /* initing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initing.swift; sourceTree = "<group>"; };
+		526213271C5CD61500017523 /* ndarray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ndarray.swift; sourceTree = "<group>"; };
+		526213281C5CD61500017523 /* operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		526213291C5CD61500017523 /* simple-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simple-math.swift"; sourceTree = "<group>"; };
+		5262132A1C5CD61500017523 /* numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = numbers.swift; sourceTree = "<group>"; };
+		5262132C1C5CD61500017523 /* conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversion.swift; sourceTree = "<group>"; };
+		5262132D1C5CD61500017523 /* machine_learning.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = machine_learning.mm; sourceTree = "<group>"; };
+		5262132E1C5CD61500017523 /* math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = math.m; sourceTree = "<group>"; };
+		5262132F1C5CD61500017523 /* OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCV.h; sourceTree = "<group>"; };
+		526213301C5CD61500017523 /* opencv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = opencv.mm; sourceTree = "<group>"; };
+		526213311C5CD61500017523 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		526213321C5CD61500017523 /* operations-and-indexing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "operations-and-indexing.m"; sourceTree = "<group>"; };
+		526213331C5CD61500017523 /* swix-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "swix-Bridging-Header.h"; sourceTree = "<group>"; };
+		526213341C5CD61500017523 /* ScalarArithmetic-bleed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScalarArithmetic-bleed.swift"; sourceTree = "<group>"; };
+		526213361C5CD61500017523 /* speed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = speed.swift; sourceTree = "<group>"; };
+		526213371C5CD61500017523 /* tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tests.swift; sourceTree = "<group>"; };
+		526213511C5CD69600017523 /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526213081C5CD5A700017523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262134C1C5CD61500017523 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526213021C5CD5A700017523 = {
+			isa = PBXGroup;
+			children = (
+				526213511C5CD69600017523 /* A.png */,
+				526213161C5CD61500017523 /* swix */,
+				5262130D1C5CD5A700017523 /* DeepLearning - OCR */,
+				5262130C1C5CD5A700017523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5262130C1C5CD5A700017523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5262130B1C5CD5A700017523 /* DeepLearning - OCR */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5262130D1C5CD5A700017523 /* DeepLearning - OCR */ = {
+			isa = PBXGroup;
+			children = (
+				5262130E1C5CD5A700017523 /* main.swift */,
+			);
+			name = "DeepLearning - OCR";
+			path = "Assignment 1";
+			sourceTree = "<group>";
+		};
+		526213161C5CD61500017523 /* swix */ = {
+			isa = PBXGroup;
+			children = (
+				526213171C5CD61500017523 /* imshow.py */,
+				526213181C5CD61500017523 /* io.swift */,
+				526213191C5CD61500017523 /* machine_learning */,
+				5262131B1C5CD61500017523 /* matrix */,
+				526213231C5CD61500017523 /* ndarray */,
+				5262132A1C5CD61500017523 /* numbers.swift */,
+				5262132B1C5CD61500017523 /* objc */,
+				526213341C5CD61500017523 /* ScalarArithmetic-bleed.swift */,
+				526213351C5CD61500017523 /* tests */,
+			);
+			path = swix;
+			sourceTree = "<group>";
+		};
+		526213191C5CD61500017523 /* machine_learning */ = {
+			isa = PBXGroup;
+			children = (
+				5262131A1C5CD61500017523 /* machine_learning.swift */,
+			);
+			path = machine_learning;
+			sourceTree = "<group>";
+		};
+		5262131B1C5CD61500017523 /* matrix */ = {
+			isa = PBXGroup;
+			children = (
+				5262131C1C5CD61500017523 /* m-complex-math.swift */,
+				5262131D1C5CD61500017523 /* m-helper-functions.swift */,
+				5262131E1C5CD61500017523 /* m-image.swift */,
+				5262131F1C5CD61500017523 /* m-initing.swift */,
+				526213201C5CD61500017523 /* m-matrix.swift */,
+				526213211C5CD61500017523 /* m-operators.swift */,
+				526213221C5CD61500017523 /* m-simple-math.swift */,
+			);
+			path = matrix;
+			sourceTree = "<group>";
+		};
+		526213231C5CD61500017523 /* ndarray */ = {
+			isa = PBXGroup;
+			children = (
+				526213241C5CD61500017523 /* complex-math.swift */,
+				526213251C5CD61500017523 /* helper-functions.swift */,
+				526213261C5CD61500017523 /* initing.swift */,
+				526213271C5CD61500017523 /* ndarray.swift */,
+				526213281C5CD61500017523 /* operators.swift */,
+				526213291C5CD61500017523 /* simple-math.swift */,
+			);
+			path = ndarray;
+			sourceTree = "<group>";
+		};
+		5262132B1C5CD61500017523 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				5262132C1C5CD61500017523 /* conversion.swift */,
+				5262132D1C5CD61500017523 /* machine_learning.mm */,
+				5262132E1C5CD61500017523 /* math.m */,
+				5262132F1C5CD61500017523 /* OpenCV.h */,
+				526213301C5CD61500017523 /* opencv.mm */,
+				526213311C5CD61500017523 /* opencv2.framework */,
+				526213321C5CD61500017523 /* operations-and-indexing.m */,
+				526213331C5CD61500017523 /* swix-Bridging-Header.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		526213351C5CD61500017523 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				526213361C5CD61500017523 /* speed.swift */,
+				526213371C5CD61500017523 /* tests.swift */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5262130A1C5CD5A700017523 /* DeepLearning - OCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526213121C5CD5A700017523 /* Build configuration list for PBXNativeTarget "DeepLearning - OCR" */;
+			buildPhases = (
+				526213071C5CD5A700017523 /* Sources */,
+				526213081C5CD5A700017523 /* Frameworks */,
+				526213091C5CD5A700017523 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeepLearning - OCR";
+			productName = "Assignment 1";
+			productReference = 5262130B1C5CD5A700017523 /* DeepLearning - OCR */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526213031C5CD5A700017523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Maciej Szpakowski";
+				TargetAttributes = {
+					5262130A1C5CD5A700017523 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 526213061C5CD5A700017523 /* Build configuration list for PBXProject "DeepLearning - OCR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 526213021C5CD5A700017523;
+			productRefGroup = 5262130C1C5CD5A700017523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5262130A1C5CD5A700017523 /* DeepLearning - OCR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526213071C5CD5A700017523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262133F1C5CD61500017523 /* m-operators.swift in Sources */,
+				5262134D1C5CD61500017523 /* operations-and-indexing.m in Sources */,
+				526213411C5CD61500017523 /* complex-math.swift in Sources */,
+				5262133E1C5CD61500017523 /* m-matrix.swift in Sources */,
+				526213471C5CD61500017523 /* numbers.swift in Sources */,
+				5262134E1C5CD61500017523 /* ScalarArithmetic-bleed.swift in Sources */,
+				526213421C5CD61500017523 /* helper-functions.swift in Sources */,
+				5262134F1C5CD61500017523 /* speed.swift in Sources */,
+				5262133A1C5CD61500017523 /* m-complex-math.swift in Sources */,
+				5262133C1C5CD61500017523 /* m-image.swift in Sources */,
+				526213481C5CD61500017523 /* conversion.swift in Sources */,
+				5262133B1C5CD61500017523 /* m-helper-functions.swift in Sources */,
+				5262130F1C5CD5A700017523 /* main.swift in Sources */,
+				5262134B1C5CD61500017523 /* opencv.mm in Sources */,
+				5262133D1C5CD61500017523 /* m-initing.swift in Sources */,
+				526213491C5CD61500017523 /* machine_learning.mm in Sources */,
+				526213381C5CD61500017523 /* io.swift in Sources */,
+				526213431C5CD61500017523 /* initing.swift in Sources */,
+				526213391C5CD61500017523 /* machine_learning.swift in Sources */,
+				5262134A1C5CD61500017523 /* math.m in Sources */,
+				526213401C5CD61500017523 /* m-simple-math.swift in Sources */,
+				526213501C5CD61500017523 /* tests.swift in Sources */,
+				526213461C5CD61500017523 /* simple-math.swift in Sources */,
+				526213441C5CD61500017523 /* ndarray.swift in Sources */,
+				526213451C5CD61500017523 /* operators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		526213101C5CD5A700017523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "swix/objc/swix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526213111C5CD5A700017523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "swix/objc/swix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Release;
+		};
+		526213131C5CD5A700017523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swix/objc",
+				);
+				PRODUCT_NAME = "DeepLearning - OCR";
+			};
+			name = Debug;
+		};
+		526213141C5CD5A700017523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swix/objc",
+				);
+				PRODUCT_NAME = "DeepLearning - OCR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526213061C5CD5A700017523 /* Build configuration list for PBXProject "DeepLearning - OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526213101C5CD5A700017523 /* Debug */,
+				526213111C5CD5A700017523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526213121C5CD5A700017523 /* Build configuration list for PBXNativeTarget "DeepLearning - OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526213131C5CD5A700017523 /* Debug */,
+				526213141C5CD5A700017523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526213031C5CD5A700017523 /* Project object */;
+}
